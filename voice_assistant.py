@@ -48,7 +48,7 @@ def wishMe():
     ##assname = ("Sunday")
     ##speak("Craig is Gaaaaay")
     speak("I am your Assistant Friday")
-    speak(assname)
+    speak(username)
 
 
 def username():
@@ -151,7 +151,7 @@ if __name__ == '__main__':
             codePath = r"C:\\Users\\GAURAV\\AppData\\Local\\Programs\\Opera\\launcher.exe"
             os.startfile(codePath)
 
-        elif 'email to gaurav' in query:
+        elif 'email to Russell' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
